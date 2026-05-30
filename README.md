@@ -28,4 +28,4 @@ the drums pages are currently not working
 
 ## Package
 
-The uploadable package is `dist/sh4d-control-1.0.9.tar.gz`.
+The downloadable package is `dist/sh4d-control-1.0.9.tar.gz`.use schwung manager to install
