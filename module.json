@@ -1,0 +1,65 @@
+{
+  "id": "sh4dow",
+  "name": "sh4Dow",
+  "abbrev": "SH4",
+  "version": "1.2.3",
+  "author": "clairebear",
+  "description": "Ableton Move USB MIDI controller for Roland SH-4Dow.",
+  "license": "MIT",
+  "ui": "ui.js",
+  "api_version": 2,
+  "component_type": "overtake",
+  "capabilities": {
+    "audio_out": false,
+    "audio_in": false,
+    "midi_in": true,
+    "midi_out": true,
+    "raw_midi": true,
+    "aftertouch": false,
+    "chainable": false,
+    "component_type": "overtake",
+    "default_forward_channel": -2,
+    "chain_params": [
+      {
+        "key": "midi_channel",
+        "name": "MIDI Channel",
+        "type": "int",
+        "min": 1,
+        "max": 16,
+        "default": 1
+      },
+      {
+        "key": "pad_octave",
+        "name": "Pad Octave",
+        "type": "int",
+        "min": 0,
+        "max": 8,
+        "default": 3
+      },
+      {
+        "key": "velocity",
+        "name": "Velocity",
+        "type": "int",
+        "min": 1,
+        "max": 127,
+        "default": 100
+      },
+      {
+        "key": "drum_channel",
+        "name": "Drum Channel",
+        "type": "int",
+        "min": 1,
+        "max": 16,
+        "default": 10
+      },
+      {
+        "key": "external_cable",
+        "name": "External MIDI Cable",
+        "type": "int",
+        "min": 0,
+        "max": 15,
+        "default": 0
+      }
+    ]
+  }
+}

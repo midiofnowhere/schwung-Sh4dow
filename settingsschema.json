@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "midiChannel": {
+      "type": "integer",
+      "title": "MIDI channel",
+      "minimum": 1,
+      "maximum": 16,
+      "default": 1
+    },
+    "padOctave": {
+      "type": "integer",
+      "title": "Pad octave",
+      "minimum": 0,
+      "maximum": 8,
+      "default": 3
+    },
+    "velocity": {
+      "type": "integer",
+      "title": "Pad velocity",
+      "minimum": 1,
+      "maximum": 127,
+      "default": 100
+    },
+    "drumPartChannel": {
+      "type": "integer",
+      "title": "Drum part MIDI channel",
+      "minimum": 1,
+      "maximum": 16,
+      "default": 10
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "title": "SH-4d Control",
+  "children": [
+    {
+      "title": "Overview",
+      "lines": [
+        "Controls a Roland",
+        "SH-4d from Move",
+        "over USB MIDI.",
+        "",
+        "Pads send notes.",
+        "Knobs send CC.",
+        "Step buttons switch",
+        "control pages.",
+        "",
+        "Shift + jog wheel",
+        "changes MIDI part.",
+        "",
+        "Play sends MIDI",
+        "Start to SH-4d.",
+        "",
+        "Rec sends a test",
+        "note on all MIDI",
+        "channels."
+      ]
+    },
+    {
+      "title": "Pages",
+      "children": [
+        {
+          "title": "Tone",
+          "lines": [
+            "Cutoff, resonance,",
+            "AMP attack, decay,",
+            "sustain, release,",
+            "timbre, and mod."
+          ]
+        },
+        {
+          "title": "Filter",
+          "lines": [
+            "Filter attack,",
+            "decay, sustain,",
+            "release, env depth,",
+            "HPF, key track,",
+            "and drive."
+          ]
+        },
+        {
+          "title": "Shape",
+          "lines": [
+            "Pitch, portamento,",
+            "LFO rate, LFO fade,",
+            "LFO pitch/filter/amp",
+            "depths, and hold."
+          ]
+        },
+        {
+          "title": "Amp/FX",
+          "lines": [
+            "Level, pan,",
+            "sliders 1-4,",
+            "expression, and",
+            "sostenuto."
+          ]
+        },
+        {
+          "title": "Drums",
+          "lines": [
+            "Drum 1 controls",
+            "slots 1-8.",
+            "",
+            "Drum 2 controls",
+            "slots 9-16.",
+            "",
+            "Both use the drum",
+            "MIDI channel."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Setup",
+      "lines": [
+        "Connect Move and",
+        "SH-4d with USB MIDI.",
+        "",
+        "Set the SH-4d part",
+        "to the same MIDI",
+        "channel as this",
+        "module."
+      ]
+    }
+  ]
+}
