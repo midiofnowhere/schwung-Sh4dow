@@ -10,7 +10,7 @@ This is a Schwung Overtake module for Ableton Move that turns Move into a direct
 - Uses Shift + jog wheel to change the active SH-4d MIDI part/channel.
 - Sends MIDI Start to the SH-4d when Play is pressed on Move.
 - Pressing Rec sends a short C note on all 16 MIDI channels for connection testing.
-- Sends standard MIDI CC messages, so it does not require custom firmware on the SH-4d.
+- Sends standard MIDI CC messages
 
 ## Pages
 
@@ -19,8 +19,7 @@ This is a Schwung Overtake module for Ableton Move that turns Move into a direct
 3. Amp/FX: level, pan, drive, chorus, delay, reverb, MFX control 1, MFX control 2
 4. Motion: LFO rate, LFO depth, filter env depth, amp env depth, mod amount, velocity, expression, hold
 5. Drum 1: controls SH-4d rhythm slots 1-8 on the configured drum MIDI channel
-6. Drum 2: controls SH-4d rhythm slots 9-16 on the configured drum MIDI channel
-
+the drums pages are currently not working
 ## SH-4d setup
 
 1. Connect Ableton Move to the SH-4d over USB MIDI.
